@@ -3,7 +3,7 @@ const {
   nativeNull
 } = require('./intro');
 
-// Один файл с тестами является одноим test suite
+// Один файл с тестами является одним test suite
 
 // Функция describe служит для объединения тестов (например всех тестов написанных для функции Sum)
 describe('Sum function:', () => {
