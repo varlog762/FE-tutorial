@@ -4,11 +4,11 @@
 const timerID = setTimeout((text) => {
   console.log(text);
 }, 5000, 'Some text');
+
 // Вариант с передачей функции в качкестве первого параметра.
 function textWriter(text) {
   console.log(text);
 }
-
 const timerID2 = setTimeout(textWriter, 5000, 'Some text');
 // Примеры выше не требуют какого-либо дополнительного вызова - setTimeout начнет отсчет времени как только будет прочитан.
 
